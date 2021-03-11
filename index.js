@@ -4,6 +4,7 @@ const option = {
     mnemonic: "galaxy urge mixture color neglect scrap path belt baby dignity dune tired wrong carry high",
     default_balance_ether: 1000000000,
     blockTime: 10,
+    db_path: './database'
 }
 const server = ganache.server(option);
 const provider = server.provider;
